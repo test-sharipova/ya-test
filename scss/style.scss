@@ -45,8 +45,20 @@ body {
         color: #1f1f1f;
     }
 }
+.title {
+    font-size: 54px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+.mobile {
+    display: none;
+}
 
 @import '_header.scss';
 @import '_promo.scss';
+@import '_about.scss';
+@import '_steps.scss';
 
 @import '_media.scss';

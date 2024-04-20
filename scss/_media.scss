@@ -1,3 +1,13 @@
+@media screen and (max-width:1023px) {
+    .about {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__wrapper2 {
+            flex-direction: column;
+        }
+    }
+}
 @media screen and (max-width:767px) {
     .container {
         width: 100%;
@@ -12,6 +22,9 @@
     }
     .btn {
         height: 47px;
+    }
+    .title {
+        font-size: 36px;
     }
     .promo {
         background-image:  image-set(url(../img/main-bg-mob.webp) type("image/webp"), url(../img/main-bg-mob.png) type("image/png") 1x, url(../img/main-bg-mob-2x.png) type("image/png") 2x);
@@ -46,6 +59,98 @@
         }
         .marquee {
             padding: 10px 0;
+        }
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .about {
+        padding: 48px 0 60px;
+        &__img {
+            width: 100%;
+            img {
+                max-width: 100%;
+                object-fit: contain;
+                height: auto;
+            }
+        }
+        &__wrapper {
+            gap: 24px;
+        }
+        &__wrapper2 {
+            margin-top: 34px;
+            gap: 24px;
+        }
+        &__img2 {
+            width: 100%;
+            min-width: 100%;
+            height: auto;
+            min-height: auto;
+            img {
+                max-width: 111%;
+                height: 100%;
+                object-fit: contain;
+                transform: translate(-19px, 0);
+            }
+        }
+        &__text {
+            font-size: 28px;
+        }
+        &__table {
+            margin-top: 30px;
+            &__item {
+                grid-template-columns: 1fr;
+                &__name {
+                    padding: 16px 0 4px;
+                    border-right: none;
+                }
+                &__info {
+                    
+                    padding: 6px 0 16px;
+                }
+                &-price {
+                    grid-template-columns: repeat(2, 1fr);
+                    .about__table__item__info {
+                        padding-top: 16px;
+                    }
+                }
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            margin-top: 22px;
+        }
+    }
+    .steps {
+        &__title {
+            &__wrap {
+                flex-direction: column;
+                gap: 12px;
+                align-items: flex-start;
+            }
+        }
+        &__item {
+           
+            flex-grow: 1;
+        }
+        .slider {
+            margin-top: 148px;
+            &__indicators {
+
+            }
+            &__indicator {
+                width: 10px;
+                height: 10px;
+                min-width: 10px;
+                min-height: 10px;
+                border-radius: 100%;
+                background-color: #d9d9d9;
+                background-clip: inherit;
+                border-top: none;
+            }
         }
     }
 }
