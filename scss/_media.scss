@@ -1,0 +1,51 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    header {
+        padding: 18px 0;
+    }
+    .logo {
+        width: 213px;
+        height: 32px;
+    }
+    .btn {
+        height: 47px;
+    }
+    .promo {
+        background-image:  image-set(url(../img/main-bg-mob.webp) type("image/webp"), url(../img/main-bg-mob.png) type("image/png") 1x, url(../img/main-bg-mob-2x.png) type("image/png") 2x);
+        background-position: center bottom;
+        padding: 90px 0 329px;
+        &__title {
+            font-size: 36px;
+            &:nth-child(3) {
+                margin-left: 29px;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            text-align: left;
+        }
+        &__btns {
+            grid-template-columns: 1fr;
+            margin-top: 32px;
+            gap: 14px;
+            .btn {
+                br {
+                    display: none;
+                }
+            }
+        }
+        &__wrap {
+            bottom: 0;
+
+        }
+        &__item {
+            font-size: 16px;
+        }
+        .marquee {
+            padding: 10px 0;
+        }
+    }
+}
