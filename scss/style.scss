@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 @import '_vari.scss';
 body {
     font-family: "Golos Text", sans-serif;
@@ -36,13 +39,25 @@ body {
     cursor: pointer;
     font-size: 16px;
     line-height: 130%;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color .3s, color .3s;
     &_main {
         background: #1f1f1f;
         color: #fff;
+        transition: background-color .3s, color .3s;
+        &:hover {
+            background-color: #FBCE51;
+            color: #1f1f1f;
+        }
     }
     &_second {
         border: 2px solid #1f1f1f;
         color: #1f1f1f;
+        &:hover {
+            background: #1f1f1f;
+            color: #fff;
+        }
     }
 }
 .title {
@@ -60,5 +75,7 @@ body {
 @import '_promo.scss';
 @import '_about.scss';
 @import '_steps.scss';
+@import '_party.scss';
+@import '_footer.scss';
 
 @import '_media.scss';

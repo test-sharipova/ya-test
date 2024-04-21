@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Шахматный турнир в Васюки!</title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,8 +43,8 @@
                         Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
                     </p>
                     <div class="promo__btns">
-                        <button type="button" class="btn btn_main">Поддержать шахматную мысль</button>
-                        <button type="button" class="btn btn_second">Подробнее <br> о турнире</button>
+                        <a href="#about" type="button" class="btn btn_main">Поддержать шахматную мысль</a>
+                        <a href="#party" type="button" class="btn btn_second">Подробнее <br> о турнире</a>
                     </div>
                 </div>
             </div>
@@ -71,11 +74,11 @@
                 </div>
            </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about__wrapper">
                     <p class="about__text">
-                        Чтобы поддержать Международный васюкинский турнир 
+                        Чтобы поддержать Международный васюкинский турнир, 
                         <span class="desktop">
                             посетите лекцию на тему: <span class="accent">«Плодотворная дебютная идея»</span>
                         </span>
@@ -233,21 +236,21 @@
                     </li>
                     
                 </ul>
-                <div class="slider">
-                    <div class="slider__wrapper">
-                      <div class="slider__items">
-                        <div class="slider__item">
+                <div class="steps__slider__wrap">
+                    <img src="img/steps-img.png" alt="самолет" width="335" height="182" class="steps__slide__img">
+                    <div class="slider-container">
+                        
+                        <div class="slider">
                             <div class="steps__slide">
-                                <div class="steps__item">
+                                <div class="steps__slide__item">
                                     <p class="steps__num">
                                         1
                                     </p>
                                     <p class="steps__item__text">
                                         Строительство железнодорожной магистрали Москва-Васюки
                                     </p>
-                                   
                                 </div>
-                                <div class="steps__item">
+                                <div class="steps__slide__item">
                                     <p class="steps__num">
                                         2
                                     </p>
@@ -255,75 +258,329 @@
                                         Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
                                     </p>
                                 </div>
+                                <div class="steps__slide__pagination">
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
-                           
-                        </div>
-                        <div class="slider__item">
                             <div class="steps__slide">
-                                <li class="steps__item">
+                                <div class="steps__slide__item">
                                     <p class="steps__num">
                                         3
                                     </p>
                                     <p class="steps__item__text">
                                         Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет
                                     </p>
-                                </li>
+                                </div>
+                                <div class="steps__slide__pagination">
+                                    <span></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="slider__item">
-                           <div class="steps__slide">
-                            <li class="steps__item">
-                                <p class="steps__num">
-                                    4
-                                </p>
-                                <p class="steps__item__text">
-                                    Строительство дворца для турнира
-                                </p>
-                            </li>
-                            <li class="steps__item">
-                                <p class="steps__num">
-                                    5
-                                </p>
-                                <p class="steps__item__text">
-                                    Размещение гаражей для гостевого автотранспорта
-                                </p>
-                            </li>
-                           </div>
-                        </div>
-                        <div class="slider__item">
                             <div class="steps__slide">
-                                <li class="steps__item">
+                                <div class="steps__slide__item">
+                                    <p class="steps__num">
+                                        4
+                                    </p>
+                                    <p class="steps__item__text">
+                                        Строительство дворца для турнира
+                                    </p>
+                                </div>
+                                <div class="steps__slide__item">
+                                    <p class="steps__num">
+                                        5
+                                    </p>
+                                    <p class="steps__item__text">
+                                        Размещение гаражей для гостевого автотранспорта
+                                    </p>
+                                </div>
+                                <div class="steps__slide__pagination">
+                                    <span></span>
+                                    <span></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="steps__slide">
+                                <div class="steps__slide__item">
                                     <p class="steps__num">
                                         6
                                     </p>
                                     <p class="steps__item__text">
                                         Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
                                     </p>
-                                </li>
+                                </div>
+                                <div class="steps__slide__pagination">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
                             </div>
-                            
-                        </div>
-                        <div class="slider__item">
-                            
                             <div class="steps__slide">
-                                <li class="steps__item">
+                                <div class="steps__slide__item">
                                     <p class="steps__num">
                                         7
                                     </p>
                                     <p class="steps__item__text">
                                         Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн
                                     </p>
-                                   
-                                </li>
+                                </div>
+                                <div class="steps__slide__pagination">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span class="active"></span>
+                                </div>
                             </div>
                         </div>
-                      </div>
+                        <button class="prev-button" aria-label="Посмотреть предыдущий слайд"></button>
+                        <button class="next-button" aria-label="Посмотреть следующий слайд"></button>
                     </div>
-                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
-                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
-                  </div>
+                </div>
             </div>
         </section>
+        <section class="party" id="party">
+            <div class="container">
+                <h2 class="title">
+                    Участники турнира
+                </h2>
+                <div class="desktop">
+                    <div class="party__slider-container">
+                        <div class="party__slider">
+                          <div class="party__slide">
+                            <div class="visually-hidden slide-num">1</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Хозе-Рауль Капабланка
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Эммануил Ласкер
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Александр Алехин
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="party__slide">
+                            <div class="visually-hidden slide-num">2</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Арон Нимцович
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Рихард Рети
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Остап Бендер
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        
+                    </div>
+                    <div class="party__slider__btns">
+                        <button class="party__prev-button" aria-label="Посмотреть предыдущий слайд"></button>
+                        <div class="party__slides-count__wrap">
+                            <span class="party__slides-count">1</span> / <span class="party__slides-count__all"></span>
+                        </div>
+                        <button class="party__next-button" aria-label="Посмотреть следующий слайд"></button>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="party__slider-container">
+                        <div class="party__slider2">
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">1</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Хозе-Рауль Капабланка
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                
+                                
+                            </div>
+                          </div>
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">2</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Арон Нимцович
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                                
+                               
+                            </div>
+                          </div>
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">3</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Эммануил Ласкер
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">4</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Александр Алехин
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">5</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Рихард Рети
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="party__slide2">
+                            <div class="visually-hidden slide-num">6</div>
+                            <div class="party__wrapper">
+                                <div class="party__person">
+                                    <div class="party__person__photo">
+                                        <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                                    </div>
+                                    <p class="party__person__name">
+                                        Остап Бендер
+                                    </p>
+                                    <p class="party__person__title">Чемпион мира по шахматам</p>
+                                    <a href="#" class="btn party-btn">Подробнее</a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="party__slider__btns">
+                        <button class="party__prev-button2" aria-label="Посмотреть предыдущий слайд"></button>
+                        <div class="party__slides-count__wrap">
+                            <span class="party__slides-count2">1</span> / <span class="party__slides-count__all2"></span>
+                        </div>
+                        <button class="party__next-button2" aria-label="Посмотреть следующий слайд"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="promo__wrap">
+                <div class="promo__wrapper marquee">
+                    <div class="promo__item">
+                        Дело помощи утопающим — дело рук самих утопающих!
+                    </div>
+                    <div class="promo__item">
+                        Шахматы двигают вперед не только культуру, но и экономику!
+                    </div>
+                    <div class="promo__item">
+                        Лед тронулся, господа присяжные заседатели!
+                    </div>
+                    
+                </div>
+                <div aria-hidden="true"  class="promo__wrapper marquee">
+                    <div class="promo__item">
+                        Дело помощи утопающим — дело рук самих утопающих!
+                    </div>
+                    <div class="promo__item">
+                        Шахматы двигают вперед не только культуру, но и экономику!
+                    </div>
+                    <div class="promo__item">
+                        Лед тронулся, господа присяжные заседатели!
+                    </div>
+                </div>
+           </div>
+        </section>
     </main>
+    <footer>
+        <div class="container">
+            <p class="footer__text">
+                Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
