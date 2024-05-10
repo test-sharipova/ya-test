@@ -180,6 +180,7 @@
             flex-grow: 1;
         }
         &__slider {
+            
             &__wrap {
                 display: block;
             }
@@ -190,7 +191,7 @@
         }
     }
     .party {
-        padding: 24px 0 137px;
+        padding: 24px 0 218px;
         &__wrapper {
             display: block;
             margin-top: 40px;
@@ -254,11 +255,16 @@
         }
         .party {
             &__slider {
+                margin-top: 40px;
                 &__btns {
                     top: inherit;
-                    bottom: 0;
+                    bottom: -81px;
                     right: 50%;
                     transform: translateX(50%);
+                    .party__next-button, .party__prev-button {
+                        width: 36px;
+                        height: 36px;
+                    }
                 }
                 &-container {
                     height: auto;

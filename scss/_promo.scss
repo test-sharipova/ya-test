@@ -1,5 +1,6 @@
 .promo {
-    background-image:  image-set(url(../img/main-bg.webp) type("image/webp"), url(../img/main-bg.png) type("image/png") 1x, url(../img/main-bg-2x.png) type("image/png") 2x);
+    // background-image:  image-set(url(../img/main-bg.webp) type("image/webp"), url(../img/main-bg.png) type("image/png") 1x, url(../img/main-bg-2x.png) type("image/png") 2x);
+    background-image: url(../img/promo-bg1.png), url(../img/promo-bg2.png);
     background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
