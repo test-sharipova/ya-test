@@ -10,6 +10,13 @@
    }
 }
 @media screen and (max-width:1023px) {
+    .btn {
+        &_second {
+            background-color: rgba(255, 255, 255, .9);
+            border: none;
+            font-weight: 500;
+        }
+    }
     .about {
         &__wrapper {
             flex-direction: column;
@@ -57,11 +64,7 @@
     .btn {
         height: 47px;
         padding: 2px;
-        &_second {
-            background-color: rgba(255, 255, 255, .9);
-            border: none;
-            font-weight: 500;
-        }
+        
     }
     .title {
         font-size: 36px;
@@ -97,6 +100,9 @@
         }
         &__item {
             font-size: 16px;
+        }
+        &__content {
+            margin: 0 auto;
         }
         .marquee {
             padding: 10px 0;
