@@ -76,9 +76,13 @@
   }
   
   .party__slider {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     transition: transform 0.5s ease-in-out;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     &__btns {
         position: absolute;
         top: 10px;

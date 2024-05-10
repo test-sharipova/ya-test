@@ -12,7 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css">
+
+    
+
+    <script src="js/swiper-bundle.min.js"></script>
     <script defer src="js/script.js"></script>
 </head>
 <body>
@@ -354,7 +362,7 @@
                 <h2 class="title">
                     Участники турнира
                 </h2>
-                <div class="desktop">
+                <!-- <div class="desktop">
                     <div class="party__slider-container">
                         <div class="party__slider">
                           <div class="party__slide">
@@ -545,6 +553,93 @@
                             <span class="party__slides-count2">1</span> / <span class="party__slides-count__all2"></span>
                         </div>
                         <button class="party__next-button2" aria-label="Посмотреть следующий слайд"></button>
+                    </div>
+                </div> -->
+                
+                <div class="party__slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Хозе-Рауль Капабланка
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Эммануил Ласкер
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Александр Алехин
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Арон Нимцович
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Рихард Рети
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="party__person">
+                            <div class="party__person__photo">
+                                <img src="img/party-person.png" alt="участник турнира" width="320" height="320">
+                            </div>
+                            <p class="party__person__name">
+                                Остап Бендер
+                            </p>
+                            <p class="party__person__title">Чемпион мира по шахматам</p>
+                            <a href="#" class="btn party-btn">Подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="party__slider__btns">
+                        <button class="party__prev-button" aria-label="Посмотреть предыдущий слайд"></button>
+                        <div class="party__slides-count__wrap">
+                            <span class="party__slides-count">1</span> / <span class="party__slides-count__all"></span>
+                        </div>
+                        <button class="party__next-button" aria-label="Посмотреть следующий слайд"></button>
                     </div>
                 </div>
             </div>
